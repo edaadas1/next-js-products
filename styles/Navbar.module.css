@@ -1,0 +1,26 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px 0px 20px;
+}
+
+.navbarLeft{
+    font-size: 30px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.navLink{
+    text-decoration: none;
+    margin: 20px;
+    color: black;
+    padding: 5px 20px;
+    border: 1px solid black;
+}
+
+.navLink:hover{
+    background-color: white;
+    color: black;
+    border: none;
+}
